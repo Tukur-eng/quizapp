@@ -31,13 +31,20 @@ body.wrong {
 
 .container {
   width: 800px;
+  height: 620px;
   max-width: 80%;
   background-color: white;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 0 10px 2px;
 }
-
+.foot{
+  text-align: right;
+  margin-top: auto ;
+  color: gold;
+  width: 640px;
+  font-size: 20px;
+}
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -73,6 +80,9 @@ body.wrong {
   font-weight: bold;
   padding: 10px 20px;
 }
+#start-btn:hover{
+  background-color: blueviolet;
+}
 
 .controls {
   display: flex;
@@ -82,4 +92,13 @@ body.wrong {
 
 .hide {
   display: none;
+}
+
+h1{
+  display: block;
+  text-wrap: 10px;
+  font-size: 25px;
+  padding: 15px;
+  margin: 30px;
+  color:pink;
 }
